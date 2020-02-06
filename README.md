@@ -1,3 +1,9 @@
+This fork provides allennlp 0.9.0 bugfixes and quick improvements.
+
+1. a build-in `_file_cache` directory to save downloaded files in clear-text folders and filenames, rather than hashed file names. To achieve this, added a `url_to_filepath` method in `file_utils.py` and modified the `get_from_cache` method.
+
+--------------------
+
 <p align="center"><img width="40%" src="doc/static/allennlp-logo-dark.png" /></p>
 
 [![Build Status](http://build.allennlp.org/app/rest/builds/buildType:(id:AllenNLP_AllenNLPCommits)/statusIcon)](http://build.allennlp.org/viewType.html?buildTypeId=AllenNLP_AllenNLPCommits&guest=1)
